@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    flex: 1;
+    margin-right: 10px;
+    text-align: center;
+    border: 3px solid var(--corPrincipal);
+}
+
+.result {
+    width: 40%;
+    margin: 24px auto;
+    padding: 50px;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.underweight {
+    background-color: #03fcec;
+}
+.normal-weight {
+    background-color: #17fc03;
+}
+.overweight {
+    background-color: #fcdb03;
+}
+.obese {
+    background-color: #fc4e03;
+}
